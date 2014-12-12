@@ -1,0 +1,420 @@
+/*---------------------CMS overrides-----------------------*/
+html,h1, h2, h3, h4, h5, h6,p{
+	font-family: Publico, Georgia, 'Times New Roman', Times, serif !important;	
+}
+.container{
+	width: 100%;
+}
+
+.forcefullwidth{
+	width: 100%;
+}
+.masthead,
+#news-tray,
+.navbar,
+hr.double-rule {
+	display: none;
+}
+
+.mastfoot, #product-bar{
+	width: 75%;
+	margin: auto;
+	margin-left: 12.5%;
+}
+
+.flatpages{
+	margin-top: -30px;
+}
+/*--------------------misc-------------*/
+.uppercase{
+	text-transform: uppercase;
+}
+
+
+.line{
+	height: 3px;
+	background-color: #00203F;
+	width: 100%;
+	margin-left: 0;
+}
+
+
+del{
+	display: none;
+}
+/*--------------custom Nav-----------------------------*/
+#customNav{
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	top: 0;
+	left: 0;	
+	background: #333;
+	z-index: 8;
+}
+#customNav a{
+	display: block;
+	top: 3px;
+	left: 30px;
+	position: absolute;
+	height: 30px;
+}
+#customNav a img{
+	vertical-align: inherit;
+	height: 40px;
+}
+#underNav{
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	background: #006cb7;
+	background: gray;
+}
+/*----------------------------cover----------------------*/
+#hedSection{
+	margin-top: 45px;
+	position: relative;
+	width: 100%;
+	min-height: 300px;
+}
+#cover{
+	position: relative;	
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 30px;
+}
+#hed{
+	position: absolute;
+	display: block;
+	margin: 0 0 0 7%;
+	max-width: 85%;
+	bottom: 0;
+	text-transform: uppercase;
+	font-weight: lighter;
+	background-color: white;
+	padding: .5% 3%;
+	font-size: 2.3em;
+}
+/*--------------------------content-section---------------------------*/
+.content-section{
+	margin-top: 40px;
+}
+/*-------------------------storysection-------------------------------*/
+#article{
+	position: relative;
+	margin-top: 25px;
+	text-align: justify;
+}
+
+#article .section{
+	width: 65%;
+	max-width: 980px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.dropcap{
+	float: left;
+	height: 70px;
+	font-size: 90px;
+	line-height: 79px;
+	margin-right: 5px;
+	color: #00203F;
+	margin-left: -7px;
+}
+
+/*------------------------------------Author------------------------------------------------*/
+#author{
+	position: absolute;
+	margin-left: -10%;
+	width:8%;	
+	text-align: left;
+}
+
+#author img{
+	margin: 0 auto;
+	width:100px;
+	height:135px;
+}
+
+#author .byline {
+border-bottom: 2px solid #00203F;
+}
+#author .producer:before {
+	content: "Produced By:";
+	font-size: .8em;
+	color: gray;
+	display: block;
+}
+#author h3{
+	font-size: 1.17em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 20px;
+	margin: 5px 0;
+}
+#author p{
+	font-size: 13px;
+	line-height: 15px;
+	color: gray;
+}
+#author h4{
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 12px;
+}
+/*---------------------------------------pullouts and imgs--------------------------------------*/
+.pullout{
+	min-width:25%;	
+	text-align: left;
+	min-height: 50px;
+	margin-bottom: 2%;
+}
+
+.pullout.right{
+	margin-right: -15%; 
+}
+.pullout.left{	
+	margin-left: -15%;
+}
+
+.left{
+	float: left;
+	margin-right: 4%;	
+}
+
+.right{
+	float: right;
+	margin-left: 4%;	
+}
+
+.caption{
+	width:40%;
+	min-height: 30px;
+	color:gray;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 10px;
+	background: #f5f4ff;
+	font-style: italic;
+}
+.info{
+	min-height: 50px;
+	color:gray;
+	font-size: 13px;
+	line-height: 16px;
+	padding-top: 10px;
+	background: #f5f4ff;
+	font-style: italic;
+	padding: 8px;
+	border: 2px solid gray;
+	border-top:0;
+	border-bottom: 0;
+	margin-bottom: 20px;
+}
+
+.caption.right{
+	padding-left: 15px;
+	padding-right:10px;
+	border-left: 2px solid gray;
+}
+.caption.left{
+	padding-right: 15px;
+	border-right: 2px solid gray;
+}
+
+.aside{
+	width:30%;
+	min-width:300px;
+	margin-bottom: 0;
+}
+.photo{
+	padding: 30px 5px;
+}
+.photo img{
+	width:100%;	
+	padding:0;
+}
+
+.photo p{
+	display: inline-block;
+	width: 100%;
+	min-height: 30px;
+	color:gray;
+	font-size: 13px;
+	line-height: 16px;
+	font-style: italic;
+	padding-top:5px;
+	text-align: justify;
+}
+
+.photo>a{
+	text-decoration: none;
+}
+
+.quote:before, .quote:after {
+	content: '"';
+	font-size: 2.2em;
+	display: inline;
+}
+.quote {
+	font-size: 2em;
+	font-style: italic;
+	margin:30px auto;
+}
+.quote>*{
+	display: inline;
+}
+/*--------------------------------------section headers-----------------------------------------*/
+.section .header{
+	position: relative;
+	overflow: hidden;	
+	width: 100%;
+	margin: 30px auto;
+	border-bottom: 1px solid black;
+	height: 10%;
+}
+
+h2.header{	
+	background-color: white;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 2em;	
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.header img{
+	height: 100%;
+	max-width: 50%;
+	vertical-align: inherit;
+}
+
+/*--------------------------------------MEDIA QUERIES--------------------------------*/
+@media only screen and (max-width : 480px) {
+	#customNav a{
+		position: static;
+		margin: auto;
+	}
+	#hed{
+		margin: auto;
+	}
+	#hed h1{
+		font-size: 18px;
+		line-height: 21px;
+		width: 100%;
+	}	
+	.right,
+	.left{
+		float: none;
+		margin: 0;
+	}
+	.section .header{
+		margin-bottom: 2px;
+	}
+	.header h2{
+		font-size:1.5em;
+	}
+	.pullout, .caption{
+		width:100%;
+	}
+	.caption.left,
+	.caption.right{
+		padding: 0;
+		border:none;
+		min-height:10px;
+	}
+	.aside{
+	min-width:250px;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	#hed h1{
+		font-size: 18px;
+		line-height: 21px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.byline:before {
+		content: "Written By: ";
+		color: gray;
+	}
+	#author .producer:before {
+		display: inline-block;
+	}
+	#author .byline {
+		border: none;
+	}
+	#author .producer .name{
+		font-size: .9em;
+		color:gray;
+	}
+	#author {
+		border-bottom: 2px solid #00203F;
+	}
+	#author{
+		position: relative;
+		margin-left: 0;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	#author img {
+		display: none;
+	}
+	.byline .name, .producer .name {
+		display: inline-block;
+	}	
+	#article .section {
+		width: 80%;
+	}
+	#section1 .caption{
+		display:none;
+	}
+
+	.pullout.right,
+	.right{		
+		margin-right: 0;
+	}
+
+	.pullout.left,
+	.left{
+		margin-left: 0;
+	}
+	
+	.quote, .quote:before, .quote:after {
+	font-size: 1.5em;
+	}
+}
+@media only screen and (max-width : 1024px) {
+	.header h2{
+		font-size: 1.7em;
+		line-height: 25px;
+		text-align: left;
+	}
+	#hed h1{
+		font-size: 1.7em;
+	}
+	
+}
+@media only screen and (max-width : 1280px) {
+	#hed h1{
+		font-size: 1.8em;
+	}
+}
+@media only screen  and  (max-width : 599px){
+	#flatpage-well{
+		padding: 0;
+		margin: 0;
+	}
+}
+
