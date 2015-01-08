@@ -2,29 +2,7 @@
 html,h1, h2, h3, h4, h5, h6,p{
 	font-family: Publico, Georgia, 'Times New Roman', Times, serif !important;	
 }
-.container{
-	width: 100%;
-}
 
-.forcefullwidth{
-	width: 100%;
-}
-.masthead,
-#news-tray,
-.navbar,
-hr.double-rule {
-	display: none;
-}
-
-.mastfoot, #product-bar{
-	width: 75%;
-	margin: auto;
-	margin-left: 12.5%;
-}
-
-.flatpages{
-	margin-top: -30px;
-}
 /*--------------------misc-------------*/
 .uppercase{
 	text-transform: uppercase;
@@ -41,6 +19,15 @@ hr.double-rule {
 
 del{
 	display: none;
+}
+.dropcap{
+	float: left;
+	height: 70px;
+	font-size: 90px;
+	line-height: 79px;
+	margin-right: 5px;
+	color: #00203F;
+	margin-left: -7px;
 }
 /*--------------custom Nav-----------------------------*/
 #customNav{
@@ -100,33 +87,6 @@ del{
 	padding: .5% 3%;
 	font-size: 2.3em;
 }
-/*--------------------------content-section---------------------------*/
-.content-section{
-	margin-top: 40px;
-}
-/*-------------------------storysection-------------------------------*/
-#article{
-	position: relative;
-	margin-top: 25px;
-	text-align: justify;
-}
-
-#article .section{
-	width: 65%;
-	max-width: 980px;
-	margin: 0 auto;
-	margin-bottom: 30px;
-}
-
-.dropcap{
-	float: left;
-	height: 70px;
-	font-size: 90px;
-	line-height: 79px;
-	margin-right: 5px;
-	color: #00203F;
-	margin-left: -7px;
-}
 
 /*------------------------------------Author------------------------------------------------*/
 #author{
@@ -139,7 +99,6 @@ del{
 #author img{
 	margin: 0 auto;
 	width:100px;
-	height:135px;
 }
 
 #author .byline {
@@ -266,10 +225,20 @@ border-bottom: 2px solid #00203F;
 .quote {
 	font-size: 2em;
 	font-style: italic;
-	margin:30px auto;
+	margin: 30px auto;
+	line-height: 2.2em;
 }
 .quote>*{
 	display: inline;
+}
+/*--------------------------content-section---------------------------*/
+.content-section{
+	margin-top: 40px;
+}
+.section {
+	margin: auto;
+	width: 70%;
+	max-width: 980px;
 }
 /*--------------------------------------section headers-----------------------------------------*/
 .section .header{
@@ -334,7 +303,8 @@ h2.header{
 		min-height:10px;
 	}
 	.aside{
-	min-width:250px;
+		min-width: initial;
+		width: 100%;
 	}
 }
 @media only screen and (min-width: 481px) and (max-width: 768px){

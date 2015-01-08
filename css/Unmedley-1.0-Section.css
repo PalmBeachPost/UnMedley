@@ -1,0 +1,13 @@
+/*-------------------------storysection-------------------------------*/
+#article{
+	position: relative;
+	margin-top: 25px;
+	text-align: justify;
+}
+
+#article .section{
+	width: 80%;
+	max-width: 980px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
